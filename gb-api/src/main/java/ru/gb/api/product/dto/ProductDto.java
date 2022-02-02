@@ -23,8 +23,7 @@ public class ProductDto {
     @PastOrPresent
     @JsonFormat(pattern="dd.MM.yyyy")
     private LocalDate manufactureDate;
-//    @NotNull
-//    private Status status;
+
     private String manufacturer;
     private String category;
 }
